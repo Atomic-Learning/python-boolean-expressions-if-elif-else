@@ -6,37 +6,33 @@
 
 <p>Place the boolean expression directly in the <code class="language-python">if</code> statement:</p>
 
-<py-cell>
-x = 10
+<py-cell>x = 10
 
 if x > 5 and x < 20:
-    print("x is between 5 and 20")
-</py-cell>
+    print("x is between 5 and 20")</py-cell>
 
 <h3>Pattern 2: Boolean Variable</h3>
 
 <p>First assign the boolean expression to a variable, then use that variable in the <code class="language-python">if</code> statement:</p>
 
-<py-cell>
-x = 10
+<py-cell>x = 10
 
 is_in_range = x > 5 and x < 20
 
 if is_in_range:
-    print("x is between 5 and 20")
-</py-cell>
+    print("x is between 5 and 20")</py-cell>
 
 <h2>When to Use Each Pattern</h2>
 
 <p><strong>Use Pattern 1 (direct expression)</strong> for simple conditions. It is concise and readable:</p>
 
-<py-cell>
+<py-cell>x = 5
+    
 if x == 5:
     print("x equals 5")
 
 if x > 0 and x < 100:
-    print("x is in range")
-</py-cell>
+    print("x is in range")</py-cell>
 
 <p><strong>Use Pattern 2 (boolean variable)</strong> when:</p>
 
@@ -46,13 +42,11 @@ if x > 0 and x < 100:
 <li>You want to explain what the condition checks by using a meaningful variable name</li>
 </ul>
 
-<py-cell>
-age = 25
+<py-cell>age = 25
 has_valid_id = age >= 18 and age <= 65
 has_clean_record = True
 
 if has_valid_id and has_clean_record:
-    print("Eligible")
-</py-cell>
+    print("Eligible")</py-cell>
 
 <p>Both patterns are valid — choose the one that makes your code clearest.</p>
