@@ -1,0 +1,21 @@
+{
+  "title": "Python: Boolean Expressions in If/Elif/Else Blocks",
+  "slug": "python-boolean-expressions-if-elif-else",
+  "description": "Using direct boolean expressions in if conditions versus assigning expressions to a boolean variable first.",
+  "authors": [
+    "chris-cooling"
+  ],
+  "tags": [
+    "python"
+  ],
+  "duration": 6,
+  "prerequisites": [
+    "python-conditionals-if-elif-else",
+    "python-booleans",
+    "python-comparison-operators",
+    "python-variables"
+  ],
+  "related": [
+    "python-boolean-operators"
+  ]
+}
