@@ -13,9 +13,9 @@
     "python-conditionals-if-elif-else",
     "python-booleans",
     "python-comparison-operators",
-    "python-variables"
+    "python-variables",
+    "python-boolean-operators"
   ],
   "related": [
-    "python-boolean-operators"
   ]
 }
